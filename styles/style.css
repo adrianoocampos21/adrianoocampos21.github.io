@@ -28,11 +28,6 @@ a{
     color: white;
 }
 
-title:hover{
-    color:blueviolet;
-    transition: 0.3s all; 
-}
-
 a:hover{
     color:blueviolet;
     transition: 0.3s all; 
@@ -86,8 +81,9 @@ p{
 
 img{
     width: 600px;
-    margin: 0 auto;
-    padding-left: 10px;
+    margin: 0px;
+    padding-left: 0px;
+    align-itens: right;
 }
 
 form{
