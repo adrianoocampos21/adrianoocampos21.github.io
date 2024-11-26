@@ -83,7 +83,8 @@ img{
     width: 600px;
     margin: 0px;
     padding-left: 0px;
-    align-itens: right;
+    justify-content: space-between;
+   
 }
 
 form{
