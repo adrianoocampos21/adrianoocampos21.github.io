@@ -1,60 +1,249 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles/style.css" rel="stylesheet">
-    <title>Portfólio Online</title>
+    <link href="assets/style.css" rel="stylesheet">
+    
+<!-- Código a ser analisado
+    $(function() {
+            if($(window).width() < 992){
+                $('#menu_principal').remove();
+                $('#menucollape').remove();
+                $('.search-form-desk').remove();
+                $('.menu-topo').remove();
+                $('.redesdesk').remove();
+            }else{
+                $('#menu_mobile').remove();
+                $('#mySidepanel').remove();
+                $('.search-form-mobile').remove();
+                $('.icomnprin').remove();
+                $('.redesmob').remove();
+            }
+        });
+
+
+js usado:
+
+function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MJQ6BJC');
+...
+ver mais: https://www.lubrax.com.br/
+
+
+Dicas pegues do site da Lubrax:
+
+<title>Home | nome da empresa</title>
+
+<body class="" data-once="">
+
+
+
+
+Dicas pegues site da 26fit:
+
+            <section id="miniaturas">
+                <div class="centro">
+                    <ul>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img3.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img4.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img5.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img6.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mask_img">
+                                <img src="imagens/img7.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+section id="planos">
+    INCLUDE BLOCK : planos
+</section>
+
+
+ <li>
+                <a href="unidades/academia-26fit-novo-hamburgo">
+                    <div class="mask_img"> flex <span>Veja Mais</span>
+                        <img src="fotos/produtos/md_vskpwy.jpg" alt="Academia 26fit Novo Hamburgo">
+                    </div>
+                    <h4>Academia 26fit Novo Hamburgo</h4>
+                </a>
+            </li>
+            
+
+
+-->
+    
+    <title>Home |</title>
 </head>
 <body>
     <header>
-        <div class="header">
-            <div id="title">
-                <a href="index.html"> 
-                    <h1>Meu portfólio</h1>
-                    <h1>Online</h1>
+        <nav class="nav-bar">
+            <div id="logo">
+                <a href="index.html">
+                    <h1>Sua logo</h1>
+                    <h1>Aqui</h1>
                 </a>
             </div>
 
-            <section class="menu-desktop">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html"><li>início</li></a>
-                            <a href="menu/about.html"><li>Sobre</li><a>
-                            <a href="menu/services.html"><li>Serviços</li></a>
-                            <a href="menu/contact.html"><li>Contato</li></a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">início<a></li>
+                    <li><a href="#.html">Sobre<a></li>
+                </ul>
+            </div>
+
+            <div class="nav-menu-mobile">
+            </div>
+
+            <div class="contact">
+                <button><a href="tel:+">contato</a></button>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="body">
-            <section class="texto">
-                <aside>
-                    <h2>Olá <span>mundo!</span></h2>
-                    <p>Meu nome é <em>Adriano Ocampos</em>...</p>
-                </aside>
-            </section>            
+        <div class="centro">
+            <ul>
+            <!--<li class="">
+                    <div class="mask-img">
+                        <img src="assets/img/jconstable-parque.jpg">
+                    </div>
+                </li>
+                <li class="">
+                    <div class="mask-img">
+                        <img src="assets/img/The-Fighting-Temeraire-oil-JMWTurner.webp">
+                    </div>
+                </li>
+                <li>
+                    <div class="mask-img">
+                        <img src="assets/img/vangog-noite.webp">
+                    </div>
+                </li>-->
+            </ul>
+        </div>
 
-            <section class="formulário">
-                <form>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="E-mail">
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
-        </div>
-        <div class="visual">
-            <section class="imagem1">
-                <article>
-                    <img src="./images/77d0a7c454e658833800528e748edbe9.png" alt="mulher meditando">
-                </article>
-            </section>
-        </div>
+        <div class="content">
+            <h1><code>Artistas que <span>inspiram</span> gerações</code></h1>
+                <ol class="sub-list" type="I">
+                    <ul>
+                        <li class="">
+                            <div class="mask-img">
+                                <img src="assets/img/jconstable-parque.jpg">
+                            </div>
+                        </li>
+                    </ul>
+
+                    
+                    <li class="jconstable">
+                        <h2><a href="https://g.co/kgs/GyVpgh9"  target="blank" rel="nofollow">John Constable (1776-1837)</a></h2>
+                    </li>
+                    <ol>
+                        <ul>
+                            <li>
+                                <p>– O pintor britânico é amplamente conhecido por suas paisagens rurais, especialmente aquelas que retratam o céu dramático e as nuvens volumosas. .<p>
+                                <p>Sua obra "O Caminho de Wivenhoe" (1816), por exemplo, é uma das mais representativas, onde ele mescla a tranquilidade do campo com o movimento das nuvens no céu, criando uma sensação de profundidade e vida na paisagem</p>
+                            </li>
+                        </ul>
+                    </ol>
+                    <ul>
+                        <li class="">
+                            <div class="mask-img">
+                                <img src="assets/img/The-Fighting-Temeraire-oil-JMWTurner.webp">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <li class="wturner">
+                        <h2><a href="https://g.co/kgs/DChEcuV"  target="blank" rel="nofollow">J.M.W. Turner (1775-1851)</a></h2>
+                        <ol>
+                            <ul>
+                                <li>
+                                    <p> – Turner, outro pintor britânico, é famoso por sua habilidade em capturar as forças da natureza, especialmente o mar e o céu. Ele pintou cenas dramáticas de tempestades e mares revoltos, como em "Tempestade de Neve" (1842), onde a combinação de nuvens escuras e o mar turbulento criam um cenário de intenso movimento e emoção.<p>
+                                    <p>Ele pintou cenas dramáticas de tempestades e mares revoltos, como em "Tempestade de Neve" (1842), onde a combinação de nuvens escuras e o mar turbulento criam um cenário de intenso movimento e emoção.</p>
+                                    <p>Sua técnica inovadora de pinceladas soltas e luminosas também se destaca na representação de nuvens e águas</p>
+                                </li>
+                            </ul>
+                        </ol>
+                    </li>
+
+                    <ul>
+                        <li>
+                            <div class="mask-img">
+                                <img src="assets/img/vangog-noite.webp">
+                            </div>
+                        </li>
+                    </ul>
+                
+                    <li class="vgogh">
+                        <h2><a href="https://g.co/kgs/cM1L6FC" target="blank" rel="nofollow">Vincent van Gogh (1853-1890)</a></h2>
+                        <ol>
+                            <ul>
+                                <li>
+                                    <p>– O pintor pós-impressionista holandês é conhecido por suas paisagens emocionais e por seu estilo expressivo. Em muitas de suas obras, ele capturou a imensidão dos campos, a tranquilidade do mar e a dramaticidade das nuvens de maneira inovadora.<p>
+                                
+                                    <p>Em "Campo de Trigo com Corvos" (1890), uma de suas obras mais emblemáticas, Van Gogh utiliza um céu cheio de nuvens escuras e corvos para evocar uma sensação de inquietação, contrastando com a calmaria do campo.</p>
+
+                                    <p>Outra obra famosa, "A Noite Estrelada" (1889), embora mais focada no céu noturno, também traz a representação das nuvens, do movimento do vento e da luz refletida no céu, mostrando como ele explorava as camadas emocionais que as paisagens podiam transmitir.</p>
+                                </li>
+                            </ul>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
     </main>
+
+    <footer>
+        <nav class="footer-nav-bar">
+            <div id="footer-logo">
+                <a href="index.html">
+                    <h1>Sua logo</h1>
+                    <h1>Aqui</h1>
+                </a>
+            </div>
+
+            <div class="footer-nav-menu">
+                <ul>
+                    <li><a href="index.html">início<a></li>
+                    <li><a href="#.html">Sobre<a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-menu-mobile">
+            </div>
+
+            <div class="footer-contact">
+                <button><a href="tel:+">contato</a></button>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>
